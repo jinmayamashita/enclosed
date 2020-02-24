@@ -51,4 +51,5 @@ getState();
 
 ## Todos
 
-- [] Add a test spec later :pray:
+- [ ] Add a test spec later :pray:
+- [ ] Documenting APIs
