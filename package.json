@@ -1,0 +1,19 @@
+{
+  "name": "enclosed",
+  "version": "0.1.0",
+  "description": "Enclosed is a easy way of managing your small state.",
+  "main": "src/index.ts",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": ["closures", "states"],
+  "author": "Jinma Yamashita <jinmayamashita@gmail.com>",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/jinmayamashita/sandbox_typescript.git"
+  },
+  "license": "ISC",
+  "devDependencies": {
+    "typescript": "^3.7.5"
+  }
+}
