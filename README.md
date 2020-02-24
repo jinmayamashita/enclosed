@@ -8,7 +8,7 @@ you can think of Enclosed as [`React.useState`](https://reactjs.org/docs/hooks-r
 ## Examples
 
 ```js
-import { enclosed } from "./enclosed";
+import { enclosed } from "./src/enclosed";
 
 const [getState, setState] = enclosed(10);
 
@@ -23,7 +23,7 @@ getState();
 ### More examples
 
 ```ts
-import { enclosed } from "./enclosed";
+import { enclosed } from "./src/enclosed";
 
 type Todo = { id: number; name: string };
 
