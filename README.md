@@ -29,6 +29,7 @@ type Todo = { id: number; name: string };
 
 const [getState, setState] = enclosed([{ id: 1, name: "foo" }]);
 
+// your custom functions
 const push = (t: Todo) => setState(s => [...s, t]);
 const update = (t: Todo) => setState(s => s.map(e => (t.id === e.id ? t : e)));
 const remove = (id: Todo["id"]) => setState(s => s.filter(e => id !== e.id));
